@@ -1,0 +1,30 @@
+section {
+  background-color: gray;
+  padding: 12px;
+}
+main {
+  padding: 60px;
+  display: grid;
+  grid-template-rows: repeat(8, 300px);
+  position: relative;
+  gap: 100px;
+}
+
+.scroll-button {
+  background-color: #ff7241;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+
+  transition: opacity 0.7s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
